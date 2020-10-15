@@ -32,7 +32,7 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 
 # Will Images work?
 
-![This is a black image](image.png){#fig:blackfigure}
+![This is a black image](assets/image.png){#fig:blackfigure}
 
 <!-- @import "subsection.md" -->
 
