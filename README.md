@@ -15,8 +15,24 @@ More topics to cover in this README:
 - what tools do I need?
 - What do I need to install?
   - pandoc
+    - pandoc-crossref to enable references inside the document
+    - pandoc-citeproc to enable citations
+  - on macOS `brew install mactex-no-gui` to support the `pdflatex` command
   - TODO: list all the other things; it is more than one thing
   - VSCodium as an editor allows you to install an extension which helps to preview and stictch together the Markdown files
+
+## TODO
+
+- Extensions to install
+  - https://shd101wyy.github.io/markdown-preview-enhanced/#/
+  - https://marketplace.visualstudio.com/items?itemName=notZaki.pandocciter
+- Setting up Zotero to export BibTex files
+  - Document options
+    - continous, etc
+  - https://github.com/retorquere/zotero-better-bibtex
+  - or https://github.com/mblode/vscode-zotero
+- What I changed in the pandoc parameters
+
 
 ## Things I want to try out
 
