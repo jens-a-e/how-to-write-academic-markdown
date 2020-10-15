@@ -12,9 +12,9 @@ papersize: a4
 colorlinks: true
 links-as-notes: true
 output:
-  pdf_document:
-    toc: true
-    number_sections: true
+  # pdf_document:
+  #   toc: true
+  #   number_sections: true
   word_document:
     path: output.docx
     reference_doc: custom-reference.docx
