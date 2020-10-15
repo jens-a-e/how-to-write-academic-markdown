@@ -1,5 +1,6 @@
 ---
 title: This is just a test
+subtitle: An example document using Markdown
 author: Max Mustermann
 date: October 2020
 abstract: A test is just a test. Nothing more. Nothing less.
@@ -11,10 +12,19 @@ nameInLink: true
 papersize: a4
 colorlinks: true
 links-as-notes: true
+# These are for the title page in LaTex
+# Info
+toc-title: This document contains
+# Appears as a footnote attributed to the title of the document
+thanks: Thanks to everyone
 output:
-  # pdf_document:
-  #   toc: true
-  #   number_sections: true
+  pdf_document:
+    toc: true
+    number_sections: true
+    # Graphics
+    institute: Northumbria University
+    titlegraphic: assets/image.png
+    logo: assets/image.png
   word_document:
     path: output.docx
     reference_doc: custom-reference.docx
